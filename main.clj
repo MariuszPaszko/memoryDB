@@ -8,3 +8,4 @@
  (defn drop-table [table-name]
   (let [db (read-db)]
     (write-db (dissoc db table-name))))
+  
